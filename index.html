@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎨 Color Palette Generator</h1>
+
+        <p>Generate beautiful random colors</p>
+
+        <div class="palette">
+
+            <div class="color-box">
+                <div class="color" id="color1"></div>
+                <p id="code1">#000000</p>
+                <button onclick="copyColor('code1')">Copy</button>
+            </div>
+
+            <div class="color-box">
+                <div class="color" id="color2"></div>
+                <p id="code2">#000000</p>
+                <button onclick="copyColor('code2')">Copy</button>
+            </div>
+
+            <div class="color-box">
+                <div class="color" id="color3"></div>
+                <p id="code3">#000000</p>
+                <button onclick="copyColor('code3')">Copy</button>
+            </div>
+
+            <div class="color-box">
+                <div class="color" id="color4"></div>
+                <p id="code4">#000000</p>
+                <button onclick="copyColor('code4')">Copy</button>
+            </div>
+
+            <div class="color-box">
+                <div class="color" id="color5"></div>
+                <p id="code5">#000000</p>
+                <button onclick="copyColor('code5')">Copy</button>
+            </div>
+
+        </div>
+
+        <button class="generate" onclick="generatePalette()">
+            🎲 Generate Palette
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
